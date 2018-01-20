@@ -1,13 +1,14 @@
 import Link from 'next/link'
 
-const Index = () => (
+const About = () => (
   <div>
     <ul>
       <li><Link href='/'><a>Home</a></Link></li>
       <li><Link href='/about'><a>About</a></Link></li>
     </ul>
-    <h1>Welcome to BitzPrice</h1>
+    <div>About BitzPrice</div>
+    <p>Application to view Bitcoin prices</p>
   </div>
 );
 
-export default Index;
+export default About;
